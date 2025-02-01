@@ -3,5 +3,5 @@
 int main() {
     float num;
     scanf("%f", &num);
-    printf("You entered:", num);
+    printf("You entered: %f", num);
 }
