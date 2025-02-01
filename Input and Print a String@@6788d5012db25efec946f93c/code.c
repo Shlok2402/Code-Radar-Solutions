@@ -4,6 +4,6 @@
 
 int main() {
     char num[100];
-    scanf("%s", num);
-    printf("You entered: ", num);
+    scanf("%s", &num);
+    printf("You entered: %s", num);
 }
