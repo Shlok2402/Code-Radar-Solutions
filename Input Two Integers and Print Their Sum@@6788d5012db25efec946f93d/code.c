@@ -5,8 +5,8 @@ int main() {
     int b ; 
     int Sum ;
     Sum = (a+b);
-    scanf("&d", &a);
-    scanf("&d", &b);
+    scanf("%d", &a);
+    scanf("%d", &b);
     printf("Sum:", Sum);
 
 }
