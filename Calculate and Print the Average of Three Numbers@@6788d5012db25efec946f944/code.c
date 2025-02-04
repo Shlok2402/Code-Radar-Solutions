@@ -4,8 +4,10 @@
 
 int main() {
     int x,y,z ;
+    float Average;
     scanf("%d", &x);
     scanf("%d", &y);
     scanf("%d", &z);
-    printf("Average: %f", (x+y+z)/3 );
+    Average = (x+y+z)/3;
+    printf("Average: %f", Average );
 }
