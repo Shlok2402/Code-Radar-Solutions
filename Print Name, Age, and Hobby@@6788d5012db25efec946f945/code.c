@@ -6,7 +6,7 @@ int main() {
     char z[100];
     scanf("%s%d%s", &x, &y, &z);
     printf("Name: %s\n", x);
-    printf("Name: %d\n", y);
-    printf("Name: %s", z);
+    printf("Age: %d\n", y);
+    printf("Hobby: %s", z);
     return 0;
 }
