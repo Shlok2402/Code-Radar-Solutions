@@ -4,10 +4,10 @@
 
 int main() {
     int x,y,z ;
-    double Average;
+    int Average;
     scanf("%d", &x);
     scanf("%d", &y);
     scanf("%d", &z);
-    Average = (x+y+z)/3;
-    printf("Average: %.2lf", Average );
+    Average = (x+y+z)/3.0;
+    printf("Average: %.2d", Average );
 }
